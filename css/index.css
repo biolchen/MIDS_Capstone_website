@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav li {
+    float: left;
+    width: 33.33%;
+}
+nav li a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-right:1px solid #fff;
+}
+.current {
+    background-color: hotpink;
+    color: #000;
+}
+@font-face {
+    src: url(../font/Comfortaa-Light.ttf);
+    font-family: 'aa';
+}
+.clearfix::after {
+    content: "";
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.logo {
+    color: #fff;
+    background: url(../images/logo.jpg) no-repeat;
+    background-size: 1200px;
+    height: 600px;
+    padding:120px;
+    padding-top: 64px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.logo h2 {
+    font-size: 32px;
+    margin-bottom: 296px;
+}
+.logo h3 {
+    background-color: #000;
+    /* margin: 50px 0; */
+    font-size: 30px;
+    margin: 50px auto;
+}
+[class^="page"] p{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-weight: 500;
+    font-family: 'comfort';
+    font-size: 22px;
+}
+.duihao {
+    position: relative;
+}
+.duihao::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/对号.png) no-repeat;
+    top: 0;
+    left: 0;
+}
+.circle {
+    position: relative;
+    padding-left: 60px!important;
+
+}
+.circle::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    top: 9px;
+    left: 42px;
+    border-radius: 50%;
+}
+.black {
+    position: relative;
+    padding-left: 90px!important;
+}
+.black::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 67px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}
+body {
+    height: 10000px;
+}
+.page2 {
+    float: left;
+    width: 50%;
+}
+.page3 {
+    float: right;
+    width: 50%;
+}
+.page3 p {
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.biaoti {
+    font-weight: 700!important;
+    margin-bottom: 15px!important;
+}
+.shadow {
+    text-shadow: 1px 1px 1px #000;
+    font-size: 35px;
+    font-family: 'aa';
+    color: #000!important;
+}
+.tuwen p {
+    margin-bottom: 20px;
+    color: rgb(89,89,89);
+    font-size: 18px;
+}
+.left {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.right {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+.tuwen h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.tuwen2 p {
+    padding-left: 50px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+[class^='tuwen'] {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.wenzi8 p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.wenzi8 .circle {
+    padding-left: 90px!important;
+}
+.wenzi8 .circle::before {
+    top: 6px;
+    left: 70px;
+}
+.wenzi8 .circle1 {
+    position: relative;
+    font-size: 25px;
+    padding-left: 60px;
+}
+.wenzi8 .circle1::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(89,89,89);
+    top: 9px;
+    left: 42px;
+    border-radius: 50%;
+}
+.left img {
+    width: 100%;
+}
+.right img {
+    width: 100%;
+}
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+[class^="tuwen"] img {
+    width: 100%;
+}
+.rgb p{
+    color: rgb(89,89,89);
+}
+.tuwen14 p {
+    font-size: 22px;
+    color: rgb(89,89,89);
+    
+}
